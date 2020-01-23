@@ -1,5 +1,5 @@
 
-import React, { Component, useRef, useEffect } from 'react';
+import React from 'react';
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 
 
@@ -9,18 +9,16 @@ import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 class MapScreen extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { value: '' };
+        this.state = { };
 
     }
 
     render() {
 
         const mapStyles = {
-            width: '50%',
+            width: '990px',
             height: '70%',
-            marginTop: 50,
-
-
+           // marginTop: 50,
         };
         return (
 
@@ -63,7 +61,7 @@ class MapScreen extends React.Component {
 
                 <InfoWindow onClose={this.onInfoWindowClose}>
                     <div>
-                        <h1>{'akaa'}</h1>
+                        <h1>{'alaa'}</h1>
                     </div>
                 </InfoWindow>
             </Map>

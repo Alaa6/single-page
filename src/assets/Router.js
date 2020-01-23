@@ -7,9 +7,9 @@ import { Router, Route, Switch } from "react-router";
 // import Branches from '../Pages/Branches'
 import Header from '../components/header'
 import history from '../utils/History'
-import Home from '../pages/Home/Home';
-// import ProductDetails from '../Pages/Products/productDetails'
-import Footer from '../components/footer'
+import Home from '../pages/Home/Home'; 
+import ProductDetails from '../pages/Home/productDetails'
+import Footer from '../components/Footer/footer'
 
 
 class MyRouter extends React.Component {
@@ -29,8 +29,8 @@ class MyRouter extends React.Component {
                         {/* <Route path="/about"     component={About} />
                         <Route path="/products"  component={Products} />
                         <Route path="/contactUs" component={ContactUs} />
-                        <Route path="/branches"  component={Branches} />
-                        <Route path="/details/:id/:name/:price/:disPrice/:img/:media/:imgSrc"  render={ (routeProps)=> <ProductDetails {...routeProps}/> }/> */}
+                        <Route path="/branches"  component={Branches} />*/}
+                        <Route path="/details/:id/:name/:price/:disPrice/:img/:media/:imgSrc"  render={ (routeProps)=> <ProductDetails {...routeProps}/> }/> 
                     </Switch>
                     <Footer/>
                        

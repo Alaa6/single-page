@@ -1,5 +1,6 @@
 import React from 'react';
 import {  Link} from "react-router-dom";
+import './footer.scss';
 
 
 class Footer extends React.Component {
@@ -17,9 +18,9 @@ class Footer extends React.Component {
                <div  style={{marginLeft :100}}>
                     <p className='about-comp-word' style={{ marginTop: 80, fontSize: 20  }}>  عن الشركة</p>
                     <p className='about-comp-word' style={{ fontSize: 16, }} >
-                        <Link to="/about" style={{ textDecoration: 'none', color: '#868686' }} >عن الشركة </Link></p>
+                        <Link to="#" style={{ textDecoration: 'none', color: '#868686' }} >عن الشركة </Link></p>
                     <p className='about-comp-word' style={{fontSize: 16 }}>
-                         <Link to="/branches" style={{ textDecoration: 'none', color: '#868686' }}  >الفروع </Link> </p>
+                         <Link to="#" style={{ textDecoration: 'none', color: '#868686' }}  >الفروع </Link> </p>
                 </div>
               <div  style={{marginRight :100}}>
                 <p className='about-comp-word' style={{ marginTop: 80, fontSize: 20 }}> اتصل بنا </p>

@@ -1,0 +1,29 @@
+.footer{
+    border-top: 1px solid  #d4d4d7;
+    min-height: 50vh;
+    background-color: #f9f9f9;
+    /* align-items: center; */
+    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* align-self: flex-end; */
+  
+  }
+
+  .row{
+    flex-direction: row-reverse;
+    resize: horizontal;
+    display: flex;
+    float:right;
+    width: '100%';
+    
+  }
+
+  .about-comp-word{
+    color: #59b210;
+    text-align:end;
+    margin-right:50px;
+    padding-right:20px;
+   
+   }
